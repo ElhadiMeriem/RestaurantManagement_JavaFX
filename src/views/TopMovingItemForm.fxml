@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #ecf0f1;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TopMovingItemFormController">
+
+   <children>
+      <PieChart fx:id="pchaPizza" labelsVisible="false" layoutX="335.0" layoutY="76.0" onMouseEntered="#itemDetailsEvent" prefHeight="459.0" prefWidth="608.0" />
+
+      <Text fill="#b71c1c" fontSmoothingType="LCD" layoutX="454.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOP MOVING ITEM" textAlignment="CENTER">
+         <font>
+            <Font name="Consolas" size="34.0" />
+         </font>
+      </Text>
+      <Label layoutX="507.0" layoutY="552.0" opacity="0.9" prefHeight="22.0" prefWidth="41.0" style="-fx-background-color: #ecf0f1;" />
+      <Button fx:id="btnLogOut" layoutX="1058.0" layoutY="3.0" onAction="#btnLogOut" prefHeight="34.0" prefWidth="139.0" style="-fx-background-color: #f22613;" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdminMenu" layoutX="1059.0" layoutY="48.0" onAction="#menuAction" prefHeight="34.0" prefWidth="139.0" style="-fx-background-color: #f22613;" text="Admin Menu" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblItemDetails" layoutX="863.0" layoutY="150.0" prefHeight="188.0" prefWidth="321.0" textFill="tomato">
+         <font>
+            <Font name="Calibri Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="139.0" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: #ffffff;" />
+      <DatePicker fx:id="txtODate" layoutX="120.0" layoutY="136.0" onAction="#chartChanging" prefHeight="28.0" prefWidth="160.0" promptText="Order Date" style="-fx-prompt-text-fill: tomato; -fx-text-inner-color: tomato;">
+         <styleClass>
+            <String fx:value="jfx-date-picker" />
+            <String fx:value="date-picker" />
+         </styleClass>
+      </DatePicker>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="480.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:id="root" fx:controller="controllers.RegisterController">
+    <children>
+        <Label prefHeight="500.0" prefWidth="326.0" style="-fx-background-color: #b71c1c;" textFill="#460101"/>
+        <ImageView fitHeight="241.0" fitWidth="241.0" layoutX="26.0" layoutY="142.0" pickOnBounds="true"
+                   preserveRatio="true" x="5.0" y="5.0">
+            <image>
+                <Image url="@../images/logo.png"/>
+            </image>
+        </ImageView>
+        <TextField fx:id="txtFirstName" layoutX="340.0" layoutY="105.0" prefHeight="33.0" prefWidth="274.0" promptText="First Name"/>
+        <TextField fx:id="txtLastName" layoutX="340.0" layoutY="168.0" prefHeight="33.0" prefWidth="274.0" promptText="Last Name"/>
+        <TextField fx:id="txtUsername" layoutX="340.0" layoutY="234.0" prefHeight="33.0" prefWidth="274.0" promptText="UserName"/>
+        <TextField fx:id="txtEmail" layoutX="340.0" layoutY="294.0" prefHeight="33.0" prefWidth="274.0" promptText="Email"/>
+        <PasswordField fx:id="txtPassword" layoutX="340.0" layoutY="353.0" prefHeight="36.0" prefWidth="274.0"
+                       promptText="Password"/>
+        <Button layoutX="442.0" layoutY="409.0" mnemonicParsing="false" style="-fx-background-color: #b71c1c;"
+                text="Sign Up" textFill="WHITE" fx:id="btnSignUp" onAction="#signUpAction">
+            <font>
+                <Font name="Consolas" size="16.0"/>
+            </font>
+        </Button>
+        <Label layoutX="346.0" layoutY="45.0" prefHeight="30.0" prefWidth="106.0" text="Fill in the Form"
+               textFill="#b71c1c">
+            <font>
+                <Font name="Consolas" size="12.0"/>
+            </font>
+        </Label>
+        <Label layoutX="41.0" layoutY="57.0" prefHeight="59.0" prefWidth="220.0" text="Welcome To Our Restaurant"
+               textFill="WHITE">
+            <font>
+                <Font name="Consolas Bold" size="16.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

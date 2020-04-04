@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="1291.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MenuController">
+    <children>
+        <AnchorPane prefHeight="600.0" prefWidth="227.0" style="-fx-background-color: #b71c1c;">
+            <children>
+                <Label layoutX="70.0" layoutY="321.0" text="Make A Reservation" textFill="WHITE" onMouseClicked="#makeReservationAction">
+                    <font>
+                        <Font name="Comic Sans MS" size="16.0"/>
+                    </font>
+                </Label>
+                <ImageView fitHeight="158.0" fitWidth="161.0" layoutX="32.0" layoutY="42.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="@../images/logo.png"/>
+                    </image>
+                </ImageView>
+                <Label layoutX="73.0" layoutY="380.0" prefHeight="17.0" prefWidth="149.0" text="Our Menu"
+                       textFill="WHITE">
+                    <font>
+                        <Font name="Comic Sans MS" size="16.0"/>
+                    </font>
+                </Label>
+                <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="15.0" layoutY="375.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="@../images/icons8-restaurant-menu-64.png"/>
+                    </image>
+                </ImageView>
+                <Label layoutX="70.0" layoutY="426.0" text="Order Food" textFill="WHITE">
+                    <font>
+                        <Font name="Comic Sans MS" size="16.0"/>
+                    </font>
+                </Label>
+                <ImageView fitHeight="42.0" fitWidth="33.0" layoutX="15.0" layoutY="421.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="@../images/order-food.png"/>
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="31.0" layoutY="403.0" pickOnBounds="true"
+                           preserveRatio="true"/>
+                <Label layoutX="73.0" layoutY="475.0" text="Payement" textFill="WHITE">
+                    <font>
+                        <Font name="Comic Sans MS" size="16.0"/>
+                    </font>
+                </Label>
+                <Label layoutX="73.0" layoutY="520.0" text="Log out" textFill="WHITE" onMouseClicked="#logOutAction">
+                <font>
+                    <Font name="Comic Sans MS" size="16.0"/>
+                </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="251.0" layoutY="99.0" prefHeight="405.0" prefWidth="234.0"
+               style="-fx-background-color: SILVER;"/>
+        <ImageView fitHeight="277.0" fitWidth="240.0" layoutX="269.0" layoutY="146.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../images/Pancake-Mix-LEAD-08.jpg"/>
+            </image>
+        </ImageView>
+        <Button layoutX="392.0" layoutY="461.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="86.0"
+                style="-fx-background-color: GOLD;" text="Dessert">
+            <font>
+                <Font name="Consolas Bold" size="12.0"/>
+            </font>
+        </Button>
+        <Label layoutX="492.0" layoutY="99.0" prefHeight="405.0" prefWidth="227.0"
+               style="-fx-background-color: SILVER;"/>
+        <Button layoutX="599.0" layoutY="461.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="115.0"
+                style="-fx-background-color: GOLD;" text="Plat d'entrée">
+            <font>
+                <Font name="Consolas Bold" size="12.0"/>
+            </font>
+        </Button>
+        <ImageView fitHeight="288.0" fitWidth="218.0" layoutX="504.0" layoutY="146.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../images/chicken-caesar-pasta-salad-recipe.jpg"/>
+            </image>
+        </ImageView>
+        <Label layoutX="725.0" layoutY="98.0" prefHeight="405.0" prefWidth="227.0"
+               style="-fx-background-color: SILVER;"/>
+        <Label layoutX="966.0" layoutY="98.0" prefHeight="405.0" prefWidth="227.0"
+               style="-fx-background-color: SILVER;"/>
+        <Button layoutX="1098.0" layoutY="461.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="86.0"
+                style="-fx-background-color: GOLD;" text="Boisson">
+            <font>
+                <Font name="Consolas Bold" size="12.0"/>
+            </font>
+        </Button>
+        <Button layoutX="822.0" layoutY="461.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="115.0"
+                style="-fx-background-color: GOLD;" text="Plat Principal">
+            <font>
+                <Font name="Consolas Bold" size="12.0"/>
+            </font>
+        </Button>
+        <ImageView fitHeight="288.0" fitWidth="207.0" layoutX="735.0" layoutY="152.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../images/yms0j5qlrjkwcto5m1dg.jpg"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="288.0" fitWidth="207.0" layoutX="980.0" layoutY="152.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../images/pumpkinspicesyrup3-1-of-1.jpg"/>
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

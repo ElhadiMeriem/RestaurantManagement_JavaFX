@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TopBuyingCustomersFormController">
+   <children>
+      <BarChart fx:id="barChart" layoutX="210.0" layoutY="112.0" prefHeight="476.0" prefWidth="770.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+       <Button fx:id="btnLogOut" layoutX="1058.0" layoutY="3.0" onAction="#logOutAction" prefHeight="34.0" prefWidth="139.0" style="-fx-background-color: #f22613;" text="Log Out" textFill="WHITE">
+           <font>
+               <Font name="Calibri Bold" size="17.0" />
+           </font>
+       </Button>
+       <Button fx:id="btnAdminMenu" layoutX="1059.0" layoutY="48.0" onAction="#menuAction" prefHeight="34.0" prefWidth="139.0" style="-fx-background-color: #f22613;" text="Admin Menu" textFill="WHITE">
+           <font>
+               <Font name="Calibri Bold" size="17.0" />
+           </font>
+       </Button>
+      <Text fill="#b71c1c" fontSmoothingType="LCD" layoutX="454.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOP CUSTOMERS" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="34.0" />
+         </font>
+      </Text>
+      <Label layoutX="181.0" layoutY="160.0" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: #ffffff;" />
+      <DatePicker fx:id="txtODate" layoutX="50.0" layoutY="157.0" onAction="#setBarChart" prefHeight="28.0" prefWidth="160.0" promptText="Order Date" style="-fx-prompt-text-fill: tomato; -fx-text-inner-color: tomato;">
+         <styleClass>
+            <String fx:value="jfx-date-picker" />
+            <String fx:value="date-picker" />
+         </styleClass>
+      </DatePicker>
+   </children>
+</AnchorPane>

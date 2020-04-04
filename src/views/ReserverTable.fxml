@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="450.0" prefWidth="750.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ReserverTableController">
+    <children>
+        <DatePicker fx:id="txtDate" layoutX="501.0" layoutY="165.0" promptText="Date" />
+        <Label layoutX="486.0" layoutY="73.0" prefHeight="34.0" prefWidth="216.0" text="Make  a Reservation" textFill="#b71c1c">
+            <font>
+                <Font name="Corbel Bold" size="23.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtNbPersons" layoutX="501.0" layoutY="321.0" prefHeight="25.0" prefWidth="174.0" promptText="Number of persons" />
+        <Button layoutX="537.0" layoutY="394.0" mnemonicParsing="false" onAction="#findTable" style="-fx-background-color: #b71c1c;" text="Find a Table" textFill="WHITE">
+            <font>
+                <Font name="Corbel" size="18.0" />
+            </font>
+        </Button>
+       <Button layoutX="427.0" layoutY="394.0" mnemonicParsing="false" onAction="#returnAction" style="-fx-background-color: #b71c1c;" text="Return" textFill="WHITE">
+          <font>
+             <Font name="Corbel" size="18.0" />
+          </font>
+       </Button>
+        <TextField fx:id="txtTime" layoutX="501.0" layoutY="243.0" prefHeight="25.0" prefWidth="174.0" promptText="Time" />
+        <Label layoutY="-1.0" prefHeight="469.0" prefWidth="344.0" style="-fx-background-color: #b71c1c;" />
+        <ImageView fitHeight="176.0" fitWidth="189.0" layoutX="51.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/logo.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

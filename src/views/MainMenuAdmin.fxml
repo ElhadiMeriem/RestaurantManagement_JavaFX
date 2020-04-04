@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" maxHeight="600.0" maxWidth="800.0" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: white;" styleClass="mainFxmlClass"
+            xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuAdminController">
+    <children>
+        <Label layoutX="69.0" layoutY="309.0" opacity="0.9" prefHeight="279.0" prefWidth="309.0"
+               style="-fx-background-color: #b71c1c;"/>
+        <Text fill="WHITE" fontSmoothingType="LCD" layoutX="223.0" layoutY="245.0" strokeType="OUTSIDE"
+              strokeWidth="0.0" text="ITEMS" textAlignment="CENTER">
+            <font>
+                <Font name="Calibri" size="26.0"/>
+            </font>
+        </Text>
+        <ImageView fitHeight="80.0" fitWidth="104.0" layoutX="174.0" layoutY="387.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../images/Transaction.png"/>
+            </image>
+        </ImageView>
+        <Label layoutX="428.0" layoutY="309.0" opacity="0.9" prefHeight="279.0" prefWidth="309.0"
+               style="-fx-background-color: #b71c1c;"/>
+        <Label layoutX="810.0" layoutY="316.0" opacity="0.9" prefHeight="279.0" prefWidth="309.0"
+               style="-fx-background-color: #b71c1c;"/>
+        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="542.0" layoutY="367.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../images/User_100px.png"/>
+            </image>
+        </ImageView>
+        <Text fill="WHITE" fontSmoothingType="LCD" layoutX="906.0" layoutY="245.0" strokeType="OUTSIDE"
+              strokeWidth="0.0" text="ORDER" textAlignment="CENTER">
+            <font>
+                <Font name="Calibri" size="26.0"/>
+            </font>
+        </Text>
+        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="916.0" layoutY="367.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../images/Bullish_100px.png"/>
+            </image>
+        </ImageView>
+        <Button fx:id="btnManageItems" layoutX="139.0" layoutY="505.0" prefHeight="38.0" prefWidth="150.0"
+                style="-fx-background-color: #ffffff;" text="Manage Items" textFill="TOMATO" onAction="#manageItems">
+            <font>
+                <Font name="Calibri Bold" size="16.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnManageUsers" layoutX="514.0" layoutY="505.0" prefHeight="38.0" prefWidth="136.0"
+                style="-fx-background-color: #ffffff;" text="Manage Users" textFill="TOMATO" onAction="#manageUsersAction">
+            <font>
+                <Font name="Calibri Bold" size="16.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnSummery" layoutX="897.0" layoutY="511.0" prefHeight="38.0" prefWidth="136.0"
+                style="-fx-background-color: #ffffff;" text="Summary" textFill="TOMATO" onAction="#summaryAction">
+            <font>
+                <Font name="Calibri Bold" size="16.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnLogOut" prefHeight="38.0" prefWidth="112.0" style="-fx-background-color: #b71c1c;"
+                text="Log Out" textFill="WHITE" onAction="#logOutAction">
+            <font>
+                <Font name="Calibri Bold" size="16.0"/>
+            </font>
+        </Button>
+        <Text fill="WHITE" fontSmoothingType="LCD" layoutX="558.0" layoutY="247.0" strokeType="OUTSIDE"
+              strokeWidth="0.0" text="USERS" textAlignment="CENTER">
+            <font>
+                <Font name="Calibri" size="26.0"/>
+            </font>
+        </Text>
+        <ImageView fitHeight="215.0" fitWidth="215.0" layoutX="462.0" layoutY="14.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../images/logo.png"/>
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

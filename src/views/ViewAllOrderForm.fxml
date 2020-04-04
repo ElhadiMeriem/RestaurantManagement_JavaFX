@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" stylesheets="Customer.css" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ViewAllOrderFormController">
+    <children>
+        <TableView fx:id="tableOrders" layoutX="168.0" layoutY="180.0" prefHeight="369.0" prefWidth="732.0" styleClass="mainFxmlClass" stylesheets="@Customer.css">
+            <columns>
+                <TableColumn fx:id="colOrderNo" prefWidth="100.99998474121094" text="Order No" />
+                <TableColumn fx:id="colCustomerId" prefWidth="131.0" text="Customer ID" />
+                <TableColumn fx:id="colCustomerName" prefWidth="192.0" text="Customer Name" />
+                <TableColumn fx:id="colOrderDate" prefWidth="159.0" text="Order Date" />
+                <TableColumn fx:id="colLivrable" prefWidth="127.0" text="Livrable" />
+            </columns>
+        </TableView>
+        <Label layoutX="211.0" layoutY="109.0" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: #ffffff;" />
+        <DatePicker fx:id="txtODate" layoutX="73.0" layoutY="87.0" prefHeight="28.0" prefWidth="160.0" promptText="Order Date" style="-fx-prompt-text-fill: #1b76ff; -fx-text-inner-color: #1b76ff;" onAction="#loadOrdersByDate">
+
+        </DatePicker>
+        <Button fx:id="btnLogOut" layoutX="1058.0" layoutY="3.0" onAction="#logOutAction" prefHeight="34.0" prefWidth="139.0" style="-fx-background-color: #f22613;" text="Log Out" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold" size="17.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnAdminMenu" layoutX="1059.0" layoutY="48.0" onAction="#menuAction" prefHeight="34.0" prefWidth="139.0" style="-fx-background-color: #f22613;" text="Admin Menu" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold" size="17.0" />
+            </font>
+        </Button>
+        <Text fill="#b71c1c" fontSmoothingType="LCD" layoutX="443.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ORDER DETAILS" textAlignment="CENTER">
+            <font>
+                <Font name="Consolas Bold" size="25.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
