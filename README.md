@@ -15,10 +15,11 @@ Screenshots of some Interfaces and Their Description
 
 <p  align="center">
 
-Use Case Name  | User Login 
+Login Screen  | User's interface
 ------------ | -------------
  <IMG SRC="/src/1.PNG" width=800>  | <IMG SRC="/src/2.PNG" width=800>
-Content in the first column | Content in the second column
+this is the login interface
+ | Content in the second column
 
 
 Use Case Name  | User Login 
