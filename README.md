@@ -56,10 +56,10 @@ Content in the first column | the NKNKN
   
     
   
-Use Case Name  | User Login 
+ Manage items   | Manage users
 ------------ | -------------
  <IMG SRC="/src/13.PNG" width=800>  | <IMG SRC="/src/14.PNG" width=800>
-Content in the first column | Content in the second column
+This window is shows only to the admin and admin can add, search, update, delete items  | the Admin have the privileges to add, update , delete  and search user
   
   
     
