@@ -83,9 +83,6 @@ Use Case Name  | User Login
 Content in the first column | Content in the second column
   
   
-   
-Use Case Name  | User Login 
------------- | -------------
- <IMG SRC="/src/19.PNG" width=800>  | <IMG SRC="/src/18.PNG" width=800>
-Content in the first column | Content in the second column
+
+ 
 </p>
