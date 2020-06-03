@@ -15,23 +15,23 @@ Screenshots of some Interfaces and Their Description
 
 <p  align="center">
 
-Login Screen  | User's interface
+Login Screen  | Customer's interface
 ------------ | -------------
  <IMG SRC="/src/1.PNG" width=800>  | <IMG SRC="/src/2.PNG" width=800>
-This is the login interface, the user provide his email and password and specify his role(customer, admin or cashier).If customer login  details are valid, the menu will appear | This is the main screen of the customer's dashboard displaying all the functionalities that he can perform
+This is the login interface, the user provide his email and password and specify his role(customer, admin or cashier).If customer login  details are valid, the menu will appear | This is the main screen of the customer's dashboard displaying all the functionalities that he can perform like making a reservation , order food, facture ...
 
-Use Case Name  | User Login 
+Desserts  Menu  | Drinks Menu
 ------------ | -------------
  <IMG SRC="/src/3.PNG" width=800>  | <IMG SRC="/src/7.PNG" width=800>
-Content in the first column | Content in the second column
+This interface show all the dessert that can be ordered by the customer | This interface show all the drinks that can be ordered by the customer
 
 
 
 
-Use Case Name  | User Login 
+startes Menu  | Main Course Menu
 ------------ | -------------
  <IMG SRC="/src/5.PNG" width=800>  | <IMG SRC="/src/6.PNG" width=800>
-Content in the first column | Content in the second column
+ This interface contains  the  available startes dish in the restaurant  | This interface contains the available main Course in the restaurant
   
   
   
