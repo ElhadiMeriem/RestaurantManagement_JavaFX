@@ -25,22 +25,17 @@ Desserts  Menu  | Drinks Menu
  <IMG SRC="/src/3.PNG" width=800>  | <IMG SRC="/src/7.PNG" width=800>
 This interface show all the dessert, to order the dessert, the customer pressed the button of the meal  | This interface show all the drinks that can be ordered by the customer
 
-
-
-
 starters Menu  | Main Course Menu
 ------------ | -------------
  <IMG SRC="/src/5.PNG" width=800>  | <IMG SRC="/src/6.PNG" width=800>
  This interface contains  the  available startes dish in the restaurant  | This interface contains the available main Course in the restaurant, the customer pressed the button to order the meal
   
-  
-  
+ 
   
 Notification  | The restaurant bill 
 ------------ | -------------
  <IMG SRC="/src/4.PNG" width=800>  | <IMG SRC="/src/9.PNG" width=800>
 If the customer order an item this notification will appear | The bill contains the price of each item also the total 
-  
   
   
     
@@ -52,10 +47,10 @@ After the customer finish his order he can validate the command | Content in the
   
   
   
-Use Case Name  | 
+Use Case Name  | KKKKKP 
 ------------ | -------------
  <IMG SRC="/src/11.PNG" width=800>  | <IMG SRC="/src/12.PNG" width=800>
-Content in the first column | the c
+Content in the first column | the NKNKN
   
   
   
