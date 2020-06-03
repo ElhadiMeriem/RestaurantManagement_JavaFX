@@ -64,17 +64,17 @@ This window is shows only to the admin and admin can add, search, update, delete
   
     
   
-Use Case Name  | User Login 
+Use Case Name  | Top Moving item
 ------------ | -------------
  <IMG SRC="/src/15.PNG" width=800>  | <IMG SRC="/src/16.PNG" width=800>
-Content in the first column | Content in the second column
+Content in the first column | The Admin  can see top moving item  ,their percentage all the time or  day by day using date picker 
   
   
   
-Use Case Name  | User Login 
+Top customers | User Login 
 ------------ | -------------
  <IMG SRC="/src/17.PNG" width=800>  | <IMG SRC="/src/18.PNG" width=800>
-Content in the first column | Content in the second column
+The Admin can see top customers using date picker | Content in the second column
   
   
      
