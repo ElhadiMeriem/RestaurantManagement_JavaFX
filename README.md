@@ -18,8 +18,7 @@ Screenshots of some Interfaces and Their Description
 Login Screen  | User's interface
 ------------ | -------------
  <IMG SRC="/src/1.PNG" width=800>  | <IMG SRC="/src/2.PNG" width=800>
-this is the login interface
- | Content in the second column
+this is the login interface the user provide his email and password and specify his role(client or admin or cashier)| Content in the second column
 
 
 Use Case Name  | User Login 
