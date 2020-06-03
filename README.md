@@ -18,8 +18,7 @@ Screenshots of some Interfaces and Their Description
 Login Screen  | User's interface
 ------------ | -------------
  <IMG SRC="/src/1.PNG" width=800>  | <IMG SRC="/src/2.PNG" width=800>
-this is the login interface the user provide his email and password and specify his role(client or admin or cashier)| Content in the second column
-
+This is the login interface, the user provide his email and password and specify his role(customer, admin or cashier).If customer login  details are valid, the menu will appear | This is the main screen of the customer's dashboard displaying all the functionalities that he can perform
 
 Use Case Name  | User Login 
 ------------ | -------------
