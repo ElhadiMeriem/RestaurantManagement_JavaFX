@@ -36,10 +36,10 @@ starters Menu  | Main Course Menu
   
   
   
-Use Case Name  | User Login 
+Notification  | The restaurant bill 
 ------------ | -------------
  <IMG SRC="/src/4.PNG" width=800>  | <IMG SRC="/src/9.PNG" width=800>
-Content in the first column | Content in the second column
+If the customer order an item this notification will appear | The bill contains the price of each item also the total 
   
   
   
