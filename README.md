@@ -99,22 +99,28 @@ It was really fun to work with these geeks to get the job done:
  
  My Contact
 =============
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/ElhadiMeriem/)
 
 You can get in touch with me on my LinkedIn Profile: LinkedIn Link
 
-You can also follow my GitHub Profile to stay updated about my latest projects: GitHub Follow
+You can also follow my GitHub Profile to stay updated about my latest projects: [![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/ElhadiMeriem/
+
 
 If you liked the repo then please support it by giving it a star ⭐!
 
 
 Issues
 =============
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/ElhadiMeriem/RestaurantManagement_JavaFX/issues/)
 
 If you face any issue, you can create a new issue in the Issues Tab and I will be glad to help you out.
 
 
 License
 =============
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
 Copyright (c) 2018-present, ElhadiMeriem, Fakham Mohammed,igzo
 
 
