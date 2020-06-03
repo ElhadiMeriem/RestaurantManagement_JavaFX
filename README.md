@@ -19,7 +19,17 @@ Purpose
 =============
 This application was developed as a final project for our Advanced Java Course. The whole class was divided into teams of 3 members and each team was assigned a particular Project. 
 
-Screenshots of the Interfaces 
+:man: User Classes 
+=============
+There are three types of users for our system.
+* Customer: Customers interact with our system directly in order to  visualize meals ,place order, make reservation, get bill .
+
+* Admin : Admin’s job is to manage the inventory and other information related to menu ,users,orders in the system.
+
+* Cashier : the main role of the cashier is to confirm the reservations made by our customer
+
+
+:page_with_curl: Screenshots of the Interfaces 
 =============
 
 <p  align="center">
