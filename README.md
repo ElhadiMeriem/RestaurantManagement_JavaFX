@@ -10,7 +10,16 @@
 
 
 
-Screenshots of some Interfaces and Their Description
+Project Description
+=============
+
+For complete details regarding the Functional, Non-Functional Requirements and Design Patterns , you can refer to the detailed 
+
+Purpose 
+=============
+This application was developed as a final project for our Advanced Java Course. The whole class was divided into teams of 3 members and each team was assigned a particular Project. 
+
+Screenshots of the Interfaces 
 =============
 
 <p  align="center">
