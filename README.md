@@ -88,6 +88,36 @@ this interface is only for the cashier,he can see all the details of the reserva
 =============
 In order to have a look at the code files and understand the working, simply download this repository and open IDE in your choice (for our case we worked in intellij idea)  and browse to the downloaded project and open it. It will load the project files and the code will be ready to run but  after that you should import the database (SQL).
 
+ Contributors
+=============
+
+It was really fun to work with these geeks to get the job done:
+
+* Fakham Mohamed
+* Abdellah jaize
+  
+ 
+ My Contact
+=============
+
+You can get in touch with me on my LinkedIn Profile: LinkedIn Link
+
+You can also follow my GitHub Profile to stay updated about my latest projects: GitHub Follow
+
+If you liked the repo then please support it by giving it a star ⭐!
+
+
+Issues
+=============
+
+If you face any issue, you can create a new issue in the Issues Tab and I will be glad to help you out.
+
+
+License
+=============
+Copyright (c) 2018-present, ElhadiMeriem, Fakham Mohammed,igzo
+
+
 
  
 </p>
