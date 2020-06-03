@@ -71,17 +71,17 @@ Content in the first column | The Admin  can see top moving item  ,their percent
   
   
   
-Top customers | User Login 
+Top customers | Order details
 ------------ | -------------
  <IMG SRC="/src/17.PNG" width=800>  | <IMG SRC="/src/18.PNG" width=800>
-The Admin can see top customers using date picker | Content in the second column
+The Admin can see top customers using date picker | the admin can visualize all orders details made by the customers
   
   
      
-Use Case Name  | User Login 
+Use Case Name  | User Register
 ------------ | -------------
  <IMG SRC="/src/19.PNG" width=800>  | <IMG SRC="/src/0.PNG" width=800>
-Content in the first column | Content in the second column
+Content in the first column |if the customer doesnt have a account he should register to the app by providing his personal information
 
  
 </p>
