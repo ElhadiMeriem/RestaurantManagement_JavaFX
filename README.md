@@ -13,7 +13,8 @@
 Project Description
 =============
 
-For complete details regarding the Functional, Non-Functional Requirements and Design Patterns , you can refer to the detailed 
+For complete details regarding the Functional, Non-Functional Requirements and Design Patterns , you can refer to the detailed docment
+https://docs.google.com/document/d/1zK04QrSkyS9JzTrUUV69i0XsqFX7_TeztNdY8l3DyGw
 
 Purpose 
 =============
