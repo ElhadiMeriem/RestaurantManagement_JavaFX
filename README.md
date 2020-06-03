@@ -23,15 +23,15 @@ This is the login interface, the user provide his email and password and specify
 Desserts  Menu  | Drinks Menu
 ------------ | -------------
  <IMG SRC="/src/3.PNG" width=800>  | <IMG SRC="/src/7.PNG" width=800>
-This interface show all the dessert that can be ordered by the customer | This interface show all the drinks that can be ordered by the customer
+This interface show all the dessert, to order the dessert, the customer pressed the button of the meal  | This interface show all the drinks that can be ordered by the customer
 
 
 
 
-startes Menu  | Main Course Menu
+starters Menu  | Main Course Menu
 ------------ | -------------
  <IMG SRC="/src/5.PNG" width=800>  | <IMG SRC="/src/6.PNG" width=800>
- This interface contains  the  available startes dish in the restaurant  | This interface contains the available main Course in the restaurant
+ This interface contains  the  available startes dish in the restaurant  | This interface contains the available main Course in the restaurant, the customer pressed the button to order the meal
   
   
   
