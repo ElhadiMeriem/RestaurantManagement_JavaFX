@@ -103,7 +103,7 @@ It was really fun to work with these geeks to get the job done:
 
 You can get in touch with me on my LinkedIn Profile: LinkedIn Link
 
-You can also follow my GitHub Profile to stay updated about my latest projects: [![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/ElhadiMeriem/
+You can also follow my GitHub Profile to stay updated about my latest projects: [![GitHub followers](https://img.shields.io/github/followers/ElhadiMeriem.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/ElhadiMeriem/)
 
 
 If you liked the repo then please support it by giving it a star ⭐!
