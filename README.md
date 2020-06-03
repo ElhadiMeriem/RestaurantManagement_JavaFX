@@ -84,4 +84,10 @@ Reservations  | User Register
 this interface is only for the cashier,he can see all the details of the reservation |if the customer doesnt have a account he should register to the app by providing his personal information
 
  
+ How to run 
+=============
+In order to have a look at the code files and understand the working, simply download this repository and open IDE in your choice (for our case we worked in intellij idea)  and browse to the downloaded project and open it. It will load the project files and the code will be ready to run but  after that you should import the database (SQL).
+
+
+ 
 </p>
