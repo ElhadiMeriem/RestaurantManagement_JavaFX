@@ -45,17 +45,17 @@ If the customer order an item this notification will appear | The bill contains 
   
     
   
-Use Case Name  | User Login 
+Command validation  | Deliver Food
 ------------ | -------------
- <IMG SRC="/src/10.PNG" width=800>  | <IMG SRC="/src/8.PNG" width=800>
-Content in the first column | Content in the second column
+ <IMG SRC="/src/8.PNG" width=800>  | <IMG SRC="/src/10.PNG" width=800>
+After the customer finish his order he can validate the command | Content in the second column
   
   
   
-Use Case Name  | User Login 
+Use Case Name  | 
 ------------ | -------------
  <IMG SRC="/src/11.PNG" width=800>  | <IMG SRC="/src/12.PNG" width=800>
-Content in the first column | Content in the second column
+Content in the first column | the c
   
   
   
