@@ -88,7 +88,7 @@ this interface is only for the cashier,he can see all the details of the reserva
 =============
 In order to have a look at the code files and understand the working, simply download this repository and open IDE in your choice (for our case we worked in intellij idea)  and browse to the downloaded project and open it. It will load the project files and the code will be ready to run but  after that you should import the database (SQL).
 
- Contributors
+ :blue_heart: Contributors
 =============
 
 It was really fun to work with these geeks to get the job done:
