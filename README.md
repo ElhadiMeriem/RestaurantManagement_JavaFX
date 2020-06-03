@@ -43,14 +43,14 @@ If the customer order an item this notification will appear | The bill contains 
 Command validation  | Deliver Food
 ------------ | -------------
  <IMG SRC="/src/8.PNG" width=800>  | <IMG SRC="/src/10.PNG" width=800>
-After the customer finish his order he can validate the command | Content in the second column
+After the customer finish his order he can validate the command |  if the customer wants a delivry food,he can specify his address
   
   
   
-Use Case Name  | KKKKKP 
+Make Reservations | Admin's menu
 ------------ | -------------
  <IMG SRC="/src/11.PNG" width=800>  | <IMG SRC="/src/12.PNG" width=800>
-Content in the first column | the NKNKN
+the customer make a reservation by providing the day , the hour also the number of person for his reservation | this menu contains three button ( manage users ,manage items,summary)
   
   
   
@@ -64,10 +64,10 @@ This window is shows only to the admin and admin can add, search, update, delete
   
     
   
-Use Case Name  | Top Moving item
+the summary 's interface  | Top Moving item
 ------------ | -------------
  <IMG SRC="/src/15.PNG" width=800>  | <IMG SRC="/src/16.PNG" width=800>
-Content in the first column | The Admin  can see top moving item  ,their percentage all the time or  day by day using date picker 
+when the admin pressed the button summary this page  shows| The Admin  can see top moving item  ,their percentage all the time or  day by day using date picker 
   
   
   
@@ -78,10 +78,10 @@ The Admin can see top customers using date picker | the admin can visualize all 
   
   
      
-Use Case Name  | User Register
+Reservations  | User Register
 ------------ | -------------
  <IMG SRC="/src/19.PNG" width=800>  | <IMG SRC="/src/0.PNG" width=800>
-Content in the first column |if the customer doesnt have a account he should register to the app by providing his personal information
+this interface is only for the cashier,he can see all the details of the reservation |if the customer doesnt have a account he should register to the app by providing his personal information
 
  
 </p>
